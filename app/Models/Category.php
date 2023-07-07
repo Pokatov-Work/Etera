@@ -5,6 +5,7 @@ namespace App\Models;
 use App\Lib\SiteHelp;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Category extends BaseModel
 {
@@ -16,6 +17,11 @@ class Category extends BaseModel
         'logo',
         'active',
     ];
+
+    public function products(): BelongsToMany
+    {
+        return $this->belongsToMany(Product::class);
+    }
 
     protected static function boot()
     {
