@@ -127,6 +127,7 @@
                 <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="/admin"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a></li>
             </ul>
         </div>
     </header>
