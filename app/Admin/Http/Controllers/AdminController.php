@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Admin\Http;
+namespace App\Admin\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
@@ -16,8 +16,8 @@ class AdminController extends BaseController
     {
     }
 
-    public function index ()
+    public function dashboard (): \Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
     {
-
+        return view('admin.dashboard');
     }
 }
