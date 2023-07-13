@@ -25,6 +25,8 @@ return new class extends Migration
 
             $table->timestamps();
 
+            $table->softDeletes();
+
             $table->foreignIdFor(Brand::class)
                 ->constrained()
                 ->cascadeOnUpdate()
