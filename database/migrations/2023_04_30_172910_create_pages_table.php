@@ -15,11 +15,14 @@ return new class extends Migration
             $table->id();
             $table->string('slug', '500');
             $table->string('name');
-            $table->boolean('is_active')->comment('не попадает в выборку на сайт');
+            $table->boolean('active')->comment('не попадает в выборку на сайт');
+            $table->jsonb('config');
             $table->jsonb('data')
                 ->comment('Данные')
                 ->nullable();
             $table->timestamps();
+
+            $table->softDeletes();
         });
     }
 

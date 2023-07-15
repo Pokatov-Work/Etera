@@ -31,7 +31,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="header_content d-flex flex-row align-items-center justify-content-centr hstack gap-3">
-                            <div class="logo"><a href="#">Etera</a></div>
+                            <div class="logo"><a href="/">Etera</a></div>
                             <nav class="main_nav">
                                 <ul>
                                     <li class="hassubs active">
@@ -45,17 +45,15 @@
                                         </ul>
                                     </li>
                                     <li class="hassubs">
-                                        <a href="categories.html">Categories</a>
+                                        <a href="categories.html">Catalog</a>
                                         <ul>
-                                            <li><a href="categories.html">Category</a></li>
-                                            <li><a href="categories.html">Category</a></li>
-                                            <li><a href="categories.html">Category</a></li>
-                                            <li><a href="categories.html">Category</a></li>
-                                            <li><a href="categories.html">Category</a></li>
+                                            <li><a href="categories.html">Product 1</a></li>
+                                            <li><a href="categories.html">Product 2</a></li>
+                                            <li><a href="categories.html">Product 3</a></li>
+                                            <li><a href="categories.html">Product 4</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Accessories</a></li>
-                                    <li><a href="#">Offers</a></li>
+                                    <li><a href="#">About</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>

@@ -50,6 +50,19 @@ abstract class BaseModel extends Model
     }
 
     /**
+     * Получить обьект по slug
+     *
+     * @param  string  $slug
+     * @return object|null
+     */
+    public static function getObjSlug(string $slug): ?object
+    {
+        $query = self::select();
+
+        return $query->where('slug', '=', $slug)->first();
+    }
+
+    /**
      * Получить query для выборки всех значений
      *
      * @return mixed
